@@ -1,3 +1,7 @@
+Deployed Version: http://kytramintbean.us-west-2.elasticbeanstalk.com/#/stalks
+
+
+
 # Today's Objective: Interactive Calculator
 
 ## Prize
