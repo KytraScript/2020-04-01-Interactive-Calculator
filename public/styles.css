@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+#root{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content-container{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%
+}
+
+.calc-container{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%
+}
