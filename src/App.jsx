@@ -12,9 +12,11 @@ const App = () => {
             <div className={'navigation'}>
                 <div className={'nav-wrapper'}>
                     <div className={'main-title'}>Interactive Calculator || Mintbean Hackathon</div>
-                    <div className={'nav-links'}>
-                        <Link to={'/'}>Home</Link>
-                        <Link to={'/stalks'}>Stalk Profits Calculator</Link>
+                    <div className={'nav-links-wrapper'}>
+                        <div className={'nav-links'}>
+                            <Link to={'/'}>Home</Link>
+                            <Link to={'/stalks'}>Stalk Profits Calculator</Link>
+                        </div>
                     </div>
                 </div>
             </div>
