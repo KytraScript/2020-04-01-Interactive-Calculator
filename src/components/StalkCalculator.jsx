@@ -42,9 +42,9 @@ const StalkCalculator = () => {
             </div>
             <div className={'calc-info'}>
                 <img src={'../img/bells.png'} alt={'Bells PNG'}/>
-                <div className={'stalk-inventory'}>Total Turnips Purchasable: <span className={'info-value'}>{stalkInventory.toString()} Turnips</span></div>
-                <div className={'stalk-sales-total'}>Total Sale Value:  <span className={'info-value'}>{inventoryValue.toString()} Bells</span></div>
-                <div className={'stalk-profits'}>Total Profit:  <span className={'info-value'}>{totalProfit.toString()} Bells</span></div>
+                <div className={'stalk-inventory column'}>Total Turnips Purchasable: <span className={'info-value'}>{stalkInventory.toString()} Turnips</span></div>
+                <div className={'stalk-sales-total column'}>Total Sale Value:  <span className={'info-value'}>{inventoryValue.toString()} Bells</span></div>
+                <div className={'stalk-profits column'}>Total Profit:  <span className={'info-value'}>{totalProfit.toString()} Bells</span></div>
             </div>
         </div>
     );
